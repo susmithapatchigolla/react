@@ -19,7 +19,7 @@ function App() {
             <Link to="/me/about">About final</Link>
           </li>
           <li>
-            <Link to="/dashboard">Dashboard final</Link>
+            <Link to="/dashboard">Dashboard Patchigolla</Link>
           </li>
         </ul>
 
