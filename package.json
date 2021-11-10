@@ -13,8 +13,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "BUILD_PATH='./dist' NODE_OPTIONS=--max-old-space-size=9096 react-scripts build",
+    "start": "react-scripts start --max-old-space-size=1024",
+    "build": "BUILD_PATH='./dist' --max-old-space-size=9024 react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
