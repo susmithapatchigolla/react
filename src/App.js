@@ -51,7 +51,7 @@ function App() {
 function Home() {
   return (
     <div>
-      <h2>Home Jin</h2>
+      <h2>Home Min</h2>
     </div>
   );
 }
